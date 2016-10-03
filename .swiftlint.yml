@@ -1,0 +1,32 @@
+disabled_rules: # rule identifiers to exclude from running
+  - function_body_length
+  - leading_whitespace
+  - line_length
+  - return_arrow_whitespace
+  - trailing_newline
+  - trailing_whitespace
+  - type_name
+  - valid_docs
+  - variable_name
+  - nesting
+  - file_length
+
+  # Find all the available rules by running:
+  # swiftlint rules
+included: # paths to include during linting. `--path` is ignored if present.
+  # - Source
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - Source/ExcludedFolder
+  - Source/ExcludedFile.swift
+# parameterized rules can be customized from this configuration file
+# line_length: 110
+# parameterized rules are first parameterized as a warning level, then error level.
+type_body_length:
+  - 300 # warning
+  - 400 # error
+cyclomatic_complexity:
+  - 10 # warning
+  - 30 # error
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle)

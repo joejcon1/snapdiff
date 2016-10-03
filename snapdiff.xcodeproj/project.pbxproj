@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49162E421DAAC77B00112332 /* Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E391DAAC77B00112332 /* Generated.swift */; };
+		49162E431DAAC77B00112332 /* Args.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3A1DAAC77B00112332 /* Args.swift */; };
+		49162E441DAAC77B00112332 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3B1DAAC77B00112332 /* Configuration.swift */; };
+		49162E451DAAC77B00112332 /* HTMLGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3C1DAAC77B00112332 /* HTMLGenerator.swift */; };
+		49162E461DAAC77B00112332 /* ImageCopier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3D1DAAC77B00112332 /* ImageCopier.swift */; };
+		49162E471DAAC77B00112332 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3E1DAAC77B00112332 /* main.swift */; };
+		49162E481DAAC77B00112332 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3F1DAAC77B00112332 /* Parser.swift */; };
+		49162E491DAAC77B00112332 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E401DAAC77B00112332 /* TestCase.swift */; };
+		49162E4A1DAAC77B00112332 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E411DAAC77B00112332 /* Logger.swift */; };
+		49162E531DAAC7B400112332 /* Args.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3A1DAAC77B00112332 /* Args.swift */; };
+		49162E541DAAC7B400112332 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3B1DAAC77B00112332 /* Configuration.swift */; };
+		49162E551DAAC7B400112332 /* HTMLGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3C1DAAC77B00112332 /* HTMLGenerator.swift */; };
+		49162E561DAAC7B400112332 /* ImageCopier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3D1DAAC77B00112332 /* ImageCopier.swift */; };
+		49162E571DAAC7B400112332 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3E1DAAC77B00112332 /* main.swift */; };
+		49162E581DAAC7B400112332 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E3F1DAAC77B00112332 /* Parser.swift */; };
+		49162E591DAAC7B400112332 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E401DAAC77B00112332 /* TestCase.swift */; };
+		49162E5A1DAAC7B400112332 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E411DAAC77B00112332 /* Logger.swift */; };
+		49162E5B1DAAC7B800112332 /* Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E391DAAC77B00112332 /* Generated.swift */; };
+		49162E5C1DAAC7C000112332 /* TestCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49162E501DAAC7A300112332 /* TestCaseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49EDCAE01DA1FCB40007C561 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49162E391DAAC77B00112332 /* Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Generated.swift; path = snapdiff/Generated.swift; sourceTree = SOURCE_ROOT; };
+		49162E3A1DAAC77B00112332 /* Args.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Args.swift; path = snapdiff/Args.swift; sourceTree = SOURCE_ROOT; };
+		49162E3B1DAAC77B00112332 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = snapdiff/Configuration.swift; sourceTree = SOURCE_ROOT; };
+		49162E3C1DAAC77B00112332 /* HTMLGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTMLGenerator.swift; path = snapdiff/HTMLGenerator.swift; sourceTree = SOURCE_ROOT; };
+		49162E3D1DAAC77B00112332 /* ImageCopier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCopier.swift; path = snapdiff/ImageCopier.swift; sourceTree = SOURCE_ROOT; };
+		49162E3E1DAAC77B00112332 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = snapdiff/main.swift; sourceTree = SOURCE_ROOT; };
+		49162E3F1DAAC77B00112332 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = snapdiff/Parser.swift; sourceTree = SOURCE_ROOT; };
+		49162E401DAAC77B00112332 /* TestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCase.swift; path = snapdiff/TestCase.swift; sourceTree = SOURCE_ROOT; };
+		49162E411DAAC77B00112332 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = snapdiff/Logger.swift; sourceTree = SOURCE_ROOT; };
+		49162E4C1DAAC79800112332 /* file_gen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = file_gen.sh; path = snapdiff/file_gen.sh; sourceTree = SOURCE_ROOT; };
+		49162E4D1DAAC79800112332 /* main_html_template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = main_html_template.html; path = snapdiff/main_html_template.html; sourceTree = SOURCE_ROOT; };
+		49162E4E1DAAC79800112332 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = snapdiff/style.css; sourceTree = SOURCE_ROOT; };
+		49162E4F1DAAC79800112332 /* test_div_template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test_div_template.html; path = snapdiff/test_div_template.html; sourceTree = SOURCE_ROOT; };
+		49162E501DAAC7A300112332 /* TestCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCaseTests.swift; path = snapdiff_tests/TestCaseTests.swift; sourceTree = SOURCE_ROOT; };
+		49162E511DAAC7A300112332 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = snapdiff_tests/Info.plist; sourceTree = SOURCE_ROOT; };
+		49DAE1161DA9B6CA002DA7E9 /* snapdiff_tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapdiff_tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EDCAE21DA1FCB40007C561 /* snapdiff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = snapdiff; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49DAE1131DA9B6CA002DA7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49162E4B1DAAC78700112332 /* Generate Files */ = {
+			isa = PBXGroup;
+			children = (
+				49162E391DAAC77B00112332 /* Generated.swift */,
+			);
+			name = "Generate Files";
+			sourceTree = "<group>";
+		};
+		49DAE1171DA9B6CA002DA7E9 /* snapdiff_tests */ = {
+			isa = PBXGroup;
+			children = (
+				49162E501DAAC7A300112332 /* TestCaseTests.swift */,
+				49162E511DAAC7A300112332 /* Info.plist */,
+			);
+			name = snapdiff_tests;
+			path = snapdiff_tests;
+			sourceTree = "<group>";
+		};
+		49E124B41DA4C6C600BC60AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49162E4C1DAAC79800112332 /* file_gen.sh */,
+				49162E4D1DAAC79800112332 /* main_html_template.html */,
+				49162E4E1DAAC79800112332 /* style.css */,
+				49162E4F1DAAC79800112332 /* test_div_template.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		49EDCAD91DA1FCB40007C561 = {
+			isa = PBXGroup;
+			children = (
+				49EDCAE41DA1FCB40007C561 /* snapdiff */,
+				49DAE1171DA9B6CA002DA7E9 /* snapdiff_tests */,
+				49EDCAE31DA1FCB40007C561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49EDCAE31DA1FCB40007C561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49EDCAE21DA1FCB40007C561 /* snapdiff */,
+				49DAE1161DA9B6CA002DA7E9 /* snapdiff_tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49EDCAE41DA1FCB40007C561 /* snapdiff */ = {
+			isa = PBXGroup;
+			children = (
+				49162E4B1DAAC78700112332 /* Generate Files */,
+				49162E3A1DAAC77B00112332 /* Args.swift */,
+				49162E3B1DAAC77B00112332 /* Configuration.swift */,
+				49162E3C1DAAC77B00112332 /* HTMLGenerator.swift */,
+				49162E3D1DAAC77B00112332 /* ImageCopier.swift */,
+				49162E3E1DAAC77B00112332 /* main.swift */,
+				49162E3F1DAAC77B00112332 /* Parser.swift */,
+				49162E401DAAC77B00112332 /* TestCase.swift */,
+				49162E411DAAC77B00112332 /* Logger.swift */,
+				49E124B41DA4C6C600BC60AB /* Resources */,
+			);
+			name = snapdiff;
+			path = snapdiff;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49DAE1151DA9B6CA002DA7E9 /* snapdiff_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DAE11D1DA9B6CA002DA7E9 /* Build configuration list for PBXNativeTarget "snapdiff_tests" */;
+			buildPhases = (
+				49DAE1121DA9B6CA002DA7E9 /* Sources */,
+				49DAE1131DA9B6CA002DA7E9 /* Frameworks */,
+				49DAE1141DA9B6CA002DA7E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snapdiff_tests;
+			productName = snapdiff_tests;
+			productReference = 49DAE1161DA9B6CA002DA7E9 /* snapdiff_tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49EDCAE11DA1FCB40007C561 /* snapdiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EDCAE91DA1FCB40007C561 /* Build configuration list for PBXNativeTarget "snapdiff" */;
+			buildPhases = (
+				6CF0E7DB1DA61BBA00C947AD /* Generate  Template Variables */,
+				49EDCAE01DA1FCB40007C561 /* CopyFiles */,
+				49EDCADE1DA1FCB40007C561 /* Sources */,
+				49E124B61DA4C77600BC60AB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snapdiff;
+			productName = snapdiff;
+			productReference = 49EDCAE21DA1FCB40007C561 /* snapdiff */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49EDCADA1DA1FCB40007C561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jc;
+				TargetAttributes = {
+					49DAE1151DA9B6CA002DA7E9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 98FJ52D67V;
+						ProvisioningStyle = Automatic;
+					};
+					49EDCAE11DA1FCB40007C561 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 98FJ52D67V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49EDCADD1DA1FCB40007C561 /* Build configuration list for PBXProject "snapdiff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49EDCAD91DA1FCB40007C561;
+			productRefGroup = 49EDCAE31DA1FCB40007C561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49EDCAE11DA1FCB40007C561 /* snapdiff */,
+				49DAE1151DA9B6CA002DA7E9 /* snapdiff_tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49DAE1141DA9B6CA002DA7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49E124B61DA4C77600BC60AB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		6CF0E7DB1DA61BBA00C947AD /* Generate  Template Variables */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate  Template Variables";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh ./snapdiff/file_gen.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49DAE1121DA9B6CA002DA7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49162E541DAAC7B400112332 /* Configuration.swift in Sources */,
+				49162E571DAAC7B400112332 /* main.swift in Sources */,
+				49162E591DAAC7B400112332 /* TestCase.swift in Sources */,
+				49162E581DAAC7B400112332 /* Parser.swift in Sources */,
+				49162E5B1DAAC7B800112332 /* Generated.swift in Sources */,
+				49162E561DAAC7B400112332 /* ImageCopier.swift in Sources */,
+				49162E531DAAC7B400112332 /* Args.swift in Sources */,
+				49162E5C1DAAC7C000112332 /* TestCaseTests.swift in Sources */,
+				49162E551DAAC7B400112332 /* HTMLGenerator.swift in Sources */,
+				49162E5A1DAAC7B400112332 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EDCADE1DA1FCB40007C561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49162E471DAAC77B00112332 /* main.swift in Sources */,
+				49162E431DAAC77B00112332 /* Args.swift in Sources */,
+				49162E441DAAC77B00112332 /* Configuration.swift in Sources */,
+				49162E481DAAC77B00112332 /* Parser.swift in Sources */,
+				49162E4A1DAAC77B00112332 /* Logger.swift in Sources */,
+				49162E491DAAC77B00112332 /* TestCase.swift in Sources */,
+				49162E461DAAC77B00112332 /* ImageCopier.swift in Sources */,
+				49162E421DAAC77B00112332 /* Generated.swift in Sources */,
+				49162E451DAAC77B00112332 /* HTMLGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49DAE11B1DA9B6CA002DA7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 98FJ52D67V;
+				INFOPLIST_FILE = snapdiff_tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jc.snapdiff-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49DAE11C1DA9B6CA002DA7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 98FJ52D67V;
+				INFOPLIST_FILE = snapdiff_tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jc.snapdiff-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49EDCAE71DA1FCB40007C561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49EDCAE81DA1FCB40007C561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49EDCAEA1DA1FCB40007C561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98FJ52D67V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/snapdiff",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49EDCAEB1DA1FCB40007C561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98FJ52D67V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/snapdiff",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49DAE11D1DA9B6CA002DA7E9 /* Build configuration list for PBXNativeTarget "snapdiff_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DAE11B1DA9B6CA002DA7E9 /* Debug */,
+				49DAE11C1DA9B6CA002DA7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49EDCADD1DA1FCB40007C561 /* Build configuration list for PBXProject "snapdiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EDCAE71DA1FCB40007C561 /* Debug */,
+				49EDCAE81DA1FCB40007C561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49EDCAE91DA1FCB40007C561 /* Build configuration list for PBXNativeTarget "snapdiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EDCAEA1DA1FCB40007C561 /* Debug */,
+				49EDCAEB1DA1FCB40007C561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49EDCADA1DA1FCB40007C561 /* Project object */;
+}
