@@ -69,7 +69,7 @@ enum Flag: String, ParameterType {
     
     
     static func allValues() -> [ParameterType] {
-        return [Flag.debug, Flag.color, Flag.notimestamp]
+        return [Flag.debug, Flag.color, Flag.notimestamp, Flag.help]
     }
 }
 
