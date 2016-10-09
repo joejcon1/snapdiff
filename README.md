@@ -82,7 +82,8 @@ If you are using xcpretty, you must take care to pipe into snapdiff _before_ xcp
 |`--output-file`| The filename for the actual html file to be output |  `snapdiff-YYYY-MM-DD--hh-ss`|
 |`--debug`      | Output debugging information| `disabled` |
 |`--color`      | Output debugging and stderr output with ANSI coloring | `disabled`|
-
+|`--no-timestamp`|Disable output directory timestamp suffix.|`timestamp enabled`|
+|`--help`|Print usage information|
 ### Acknowledgments
 
 Special thanks to:
