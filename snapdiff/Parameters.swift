@@ -61,10 +61,18 @@ struct Parameter: CustomStringConvertible {
         let components = input.components(separatedBy: "=")
         var typeName = components[0]
         typeName = typeName.replacingOccurrences(of: "--", with: "")
-        guard let type = Option(rawValue: typeName) else {
+        var parsedType: ParameterType?
+        if let optionType = Option(rawValue: typeName) {
+            parsedType = optionType
+        } else if let flagType = Flag(rawValue: typeName) {
+            parsedType = flagType
+        }
+        
+        guard let type = parsedType else {
             Logger.fatal("Unexpected option \(typeName)\n\(ParameterParser.usage())")
         }
         self.type = type
+        
         guard components.count > 1 else {
             return
         }
