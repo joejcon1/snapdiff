@@ -21,10 +21,10 @@ func main() {
     let imageMover = ImageCopier()
     let generator = HTMLGenerator()
     
-    let arguments = Argument.parseArguments()
+    let params = ParameterParser.parseCurrentParameters()
     
-    guard let configuration = Configuration(withArguments: arguments) else {
-        Logger.fatal("Invalid arguments. \(arguments)")
+    guard let configuration = Configuration(withParameters: params) else {
+        Logger.fatal("Invalid parameters. \(params)\n\(ParameterParser.usage())")
     }
     
     while let line = readLine() {
