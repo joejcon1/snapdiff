@@ -1,0 +1,10 @@
+task :make do
+    system("xcodebuild | xcpretty -c")
+end
+task :install do 
+    system("mv ./build/Release/snapdiff /usr/local/bin/snapdiff")
+end
+
+task :test do
+    system("xcodebuild test -scheme snapdiff_tests | xcpretty -c")
+end
