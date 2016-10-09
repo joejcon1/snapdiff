@@ -71,12 +71,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49162E4B1DAAC78700112332 /* Generate Files */ = {
+		49162E4B1DAAC78700112332 /* Generated Files */ = {
 			isa = PBXGroup;
 			children = (
 				49162E391DAAC77B00112332 /* Generated.swift */,
 			);
-			name = "Generate Files";
+			name = "Generated Files";
 			sourceTree = "<group>";
 		};
 		49DAE1171DA9B6CA002DA7E9 /* snapdiff_tests */ = {
@@ -85,7 +85,6 @@
 				49162E501DAAC7A300112332 /* TestCaseTests.swift */,
 				49162E511DAAC7A300112332 /* Info.plist */,
 			);
-			name = snapdiff_tests;
 			path = snapdiff_tests;
 			sourceTree = "<group>";
 		};
@@ -121,7 +120,7 @@
 		49EDCAE41DA1FCB40007C561 /* snapdiff */ = {
 			isa = PBXGroup;
 			children = (
-				49162E4B1DAAC78700112332 /* Generate Files */,
+				49162E4B1DAAC78700112332 /* Generated Files */,
 				49162E3A1DAAC77B00112332 /* Args.swift */,
 				49162E3B1DAAC77B00112332 /* Configuration.swift */,
 				49162E3C1DAAC77B00112332 /* HTMLGenerator.swift */,
@@ -132,7 +131,6 @@
 				49162E411DAAC77B00112332 /* Logger.swift */,
 				49E124B41DA4C6C600BC60AB /* Resources */,
 			);
-			name = snapdiff;
 			path = snapdiff;
 			sourceTree = "<group>";
 		};
