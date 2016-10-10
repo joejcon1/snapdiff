@@ -61,9 +61,9 @@ struct HTMLGenerator {
         return parseTemplate(type: .testDiv, apply: params)
     }
     
-    func htmlContent(withTests tests: String) -> String? {
+    func htmlContent(forProject title: String = "Snapdiff", withTests tests: String) -> String? {
         let params: [TemplateTag : String] = [
-            .fileTitle : "Title",
+            .fileTitle : title,
             .tests: tests
         ]
         return parseTemplate(type: .main, apply: params)

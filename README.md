@@ -89,4 +89,4 @@ If you are using xcpretty, you must take care to pipe into snapdiff _before_ xcp
 Special thanks to:
 - Facebook for creating FBSnapshotTestCase, an indispensible tool for reliable iOS development.
 - Ash Furrow for creating second_curtain, a large inspiration for this project and an excellent tool.
-- Orta for creating everything he makes, including the excellent snapshots Xcode plugin.
+- Orta for creating the excellent snapshots Xcode plugin.
